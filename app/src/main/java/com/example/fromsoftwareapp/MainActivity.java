@@ -1,6 +1,8 @@
 package com.example.fromsoftwareapp;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,5 +24,25 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    }
-}
+        binding.BotonImg1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, GameOne.class);
+                intent.putExtra("mensaje", "juego 1");
+
+                startActivity(intent);
+            }
+        });
+
+
+
+
+
+
+    }//FIN ONCREATE
+
+
+
+
+
+}//FIN MAIN
