@@ -1,55 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:id="@+id/main"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".MainActivity">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
 
-        <LinearLayout
-            android:id="@+id/VerticalLayout"
-            android:layout_width="411dp"
-            android:layout_height="734dp"
-            android:orientation="horizontal"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0">
+    <LinearLayout
+        android:id="@+id/VerticalLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <!-- Primer botón de imagen con texto superpuesto -->
+        <FrameLayout
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
 
             <ImageButton
                 android:id="@+id/BotonImg1"
-                android:layout_width="118dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:contentDescription="BloodBorne"
-                android:src="@drawable/bloodborne" />
+                android:src="@drawable/bloodborne"
+                android:contentDescription="BloodBorne" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="BloodBorne"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <!-- Segundo botón de imagen con texto superpuesto -->
+        <FrameLayout
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
 
             <ImageButton
                 android:id="@+id/BotonImg2"
-                android:layout_width="118dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:contentDescription="EldenRing"
-                android:src="@drawable/elden_ring" />
+                android:src="@drawable/elden_ring"
+                android:contentDescription="EldenRing" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Elden Ring"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <!-- Tercer botón de imagen con texto superpuesto -->
+        <FrameLayout
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
 
             <ImageButton
                 android:id="@+id/BotonImg3"
-                android:layout_width="118dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:contentDescription="Sekiro"
-                android:src="@drawable/sekiro" />
+                android:src="@drawable/sekiro"
+                android:contentDescription="Sekiro" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Sekiro"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <!-- Cuarto botón de imagen con texto superpuesto -->
+        <FrameLayout
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
 
             <ImageButton
                 android:id="@+id/BotonImg4"
-                android:layout_width="118dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:contentDescription="DarkSouls"
-                android:src="@drawable/darksouls" />
+                android:src="@drawable/darksouls"
+                android:contentDescription="DarkSouls" />
 
-        </LinearLayout>
-    </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Dark Souls"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
