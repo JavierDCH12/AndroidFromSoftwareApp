@@ -29,5 +29,7 @@ public class GameOne extends AppCompatActivity {
             binding.TextGameOne.setText(mensaje); // Aquí asignas el mensaje al TextView
         }
 
-    }
-}
+    }//FIN ONCREATE
+
+
+}//FIN MAIN

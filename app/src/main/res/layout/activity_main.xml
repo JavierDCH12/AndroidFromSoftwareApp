@@ -21,31 +21,35 @@
 
             <ImageButton
                 android:id="@+id/BotonImg1"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_width="118dp"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
-                tools:srcCompat="@tools:sample/avatars" />
+                android:contentDescription="BloodBorne"
+                android:src="@drawable/bloodborne" />
 
             <ImageButton
                 android:id="@+id/BotonImg2"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_width="118dp"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
-                tools:srcCompat="@tools:sample/avatars" />
+                android:contentDescription="EldenRing"
+                android:src="@drawable/elden_ring" />
 
             <ImageButton
                 android:id="@+id/BotonImg3"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_width="118dp"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
-                tools:srcCompat="@tools:sample/avatars" />
+                android:contentDescription="Sekiro"
+                android:src="@drawable/sekiro" />
 
             <ImageButton
                 android:id="@+id/BotonImg4"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_width="118dp"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
-                tools:srcCompat="@tools:sample/avatars" />
+                android:contentDescription="DarkSouls"
+                android:src="@drawable/darksouls" />
 
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
