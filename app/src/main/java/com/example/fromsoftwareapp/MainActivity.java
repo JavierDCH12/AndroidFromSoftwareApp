@@ -58,6 +58,17 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //GAME THREE BOTTON IMAGE
+        binding.BotonImg4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, GameFour.class);
+                intent.putExtra("mensaje", "juego 4");
+
+                startActivity(intent);
+            }
+        });
+
 
 
 

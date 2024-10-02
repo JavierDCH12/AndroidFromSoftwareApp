@@ -16,7 +16,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/GameTwoImg"
+            android:id="@+id/GameFourImg"
             android:layout_width="match_parent"
             android:layout_height="531dp"
             android:scaleType="centerCrop"
@@ -26,17 +26,17 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0"
-            app:srcCompat="@drawable/elden_ring" />
+            app:srcCompat="@drawable/darksouls" />
 
 
         <TextView
-            android:id="@+id/GameTwoTitulo"
+            android:id="@+id/GameFourTitulo"
             android:layout_width="297dp"
             android:layout_height="75dp"
             android:layout_margin="16dp"
             android:background="@drawable/rounded_title"
             android:gravity="center"
-            android:text="Elden Ring"
+            android:text="Dark Souls"
             android:textColor="@android:color/white"
             android:textSize="50dp"
             android:textStyle="bold"
@@ -48,11 +48,11 @@
 
         <TextView
 
-            android:id="@+id/GameTwoTexto"
+            android:id="@+id/GameFourTexto"
             android:layout_width="match_parent"
             android:layout_height="205dp"
             android:background="@color/black"
-            android:text="TEXTO SOBRE ELDEN RING"
+            android:text="TEXTO SOBRE DARK SOULS"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
