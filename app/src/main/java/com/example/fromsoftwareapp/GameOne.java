@@ -24,10 +24,7 @@ public class GameOne extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         Intent intent = getIntent();
-        String mensaje = intent.getStringExtra("mensaje");
-        if (mensaje != null) {
-            binding.TextGameOne.setText(mensaje); // Aquí asignas el mensaje al TextView
-        }
+
 
     }//FIN ONCREATE
 

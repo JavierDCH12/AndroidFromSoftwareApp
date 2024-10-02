@@ -32,12 +32,13 @@
                 android:contentDescription="BloodBorne" />
 
             <TextView
-                android:id="@+id/textView1"
+                android:id="@+id/GameOneTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="BloodBorne"
                 android:textColor="@android:color/white"
+                android:textSize="18dp"
                 android:textStyle="bold" />
         </FrameLayout>
 
@@ -55,11 +56,12 @@
                 android:contentDescription="EldenRing" />
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/GameTwoTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="Elden Ring"
+                android:textSize="18dp"
                 android:textColor="@android:color/white"
                 android:textStyle="bold" />
         </FrameLayout>
@@ -84,7 +86,9 @@
                 android:layout_gravity="center"
                 android:text="Sekiro"
                 android:textColor="@android:color/white"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textSize="18dp"
+                />
         </FrameLayout>
 
         <!-- Cuarto botón de imagen con texto superpuesto -->
@@ -106,6 +110,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="Dark Souls"
+                android:textSize="18dp"
                 android:textColor="@android:color/white"
                 android:textStyle="bold" />
         </FrameLayout>

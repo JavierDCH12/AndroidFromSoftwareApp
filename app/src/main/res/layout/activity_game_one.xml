@@ -7,13 +7,45 @@
     android:layout_height="match_parent"
     tools:context=".GameOne">
 
-    <TextView
-        android:id="@+id/TextGameOne"
-        android:layout_width="127dp"
-        android:layout_height="137dp"
-        android:layout_marginStart="140dp"
-        android:layout_marginTop="248dp"
-        android:text="TextView"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="413dp"
+        android:layout_height="736dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/GameOneImg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/bloodborne" />
+
+
+        <TextView
+            android:id="@+id/textOverlay"
+            android:layout_width="297dp"
+            android:layout_height="110dp"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            android:text="Bloodborne"
+            android:textColor="@android:color/white"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:background="@drawable/rounded_title"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
