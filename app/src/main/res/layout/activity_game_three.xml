@@ -17,7 +17,7 @@
 
 
         <ImageView
-            android:id="@+id/GameTwoImg"
+            android:id="@+id/GameThreeImg"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
@@ -26,39 +26,39 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0"
-            app:srcCompat="@drawable/elden_ring" />
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/sekiro" />
 
         <TextView
-            android:id="@+id/GameTwoTitulo"
+            android:id="@+id/GameThreeTitulo"
             android:layout_width="342dp"
             android:layout_height="75dp"
             android:layout_margin="16dp"
             android:background="@drawable/rounded_title"
             android:gravity="center"
-            android:text="Elden Ring"
+            android:text="Sekiro"
             android:textColor="@android:color/white"
             android:textSize="50dp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.236"
-            />
+            app:layout_constraintVertical_bias="0.13" />
 
         <TextView
-            android:id="@+id/GameTwoTexto"
+            android:id="@+id/GameThreeTexto"
             android:layout_width="314dp"
             android:layout_height="169dp"
             android:background="@drawable/rounded_title"
-            android:text="TEXTO SOBRE ELDEN RING"
+            android:text="TEXTO SOBRE SEKIRO"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.494"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.634" />
+            app:layout_constraintVertical_bias="0.673" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

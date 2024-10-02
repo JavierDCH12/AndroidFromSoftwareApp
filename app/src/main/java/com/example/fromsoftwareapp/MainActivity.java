@@ -6,13 +6,12 @@ import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
+
 
 import com.example.fromsoftwareapp.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
+
     ActivityMainBinding binding;
 
     @Override
@@ -42,6 +41,18 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, GameTwo.class);
                 intent.putExtra("mensaje", "juego 2");
+
+                startActivity(intent);
+            }
+        });
+
+
+        //GAME THREE BOTTON IMAGE
+        binding.BotonImg3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, GameThree.class);
+                intent.putExtra("mensaje", "juego 3");
 
                 startActivity(intent);
             }
