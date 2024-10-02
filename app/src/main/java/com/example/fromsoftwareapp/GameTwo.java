@@ -2,6 +2,7 @@ package com.example.fromsoftwareapp;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -26,6 +27,22 @@ public class GameTwo extends AppCompatActivity {
 
 
         Intent intent = getIntent();
+
+        //MENU BACK BUTTON
+        binding.ButtonBackTwo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(GameTwo.this, MainActivity.class);
+
+                startActivity(intent);
+            }
+        });
+
+
+
+
+
 
     }//FIN ONCREATE
 
