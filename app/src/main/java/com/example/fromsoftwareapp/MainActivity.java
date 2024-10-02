@@ -23,12 +23,25 @@ public class MainActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
 
-
+        //GAME ONE BOTTON IMAGE
         binding.BotonImg1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, GameOne.class);
                 intent.putExtra("mensaje", "juego 1");
+
+                startActivity(intent);
+            }
+        });
+
+
+
+        //GAME TWO BOTTON IMAGE
+        binding.BotonImg2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, GameTwo.class);
+                intent.putExtra("mensaje", "juego 2");
 
                 startActivity(intent);
             }
